@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -9,7 +10,7 @@ import { CarModule } from './car/car.module';
     AppComponent
   ],
   imports: [
-    BrowserModule, CarModule
+    BrowserModule, CarModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
